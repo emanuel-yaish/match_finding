@@ -1,0 +1,18 @@
+.match-finding {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.match-finding-container {
+  width: 30rem;
+}
+
+.buttons-container,
+.counter-contianer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
