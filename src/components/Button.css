@@ -1,0 +1,19 @@
+.button {
+  font-size: 3rem;
+  border: none;
+  background-color: transparent;
+}
+
+.button.positive {
+  color: var(--positive);
+  text-shadow: 1px 1px black;
+}
+.button.negative {
+  color: var(--negative);
+  text-shadow: 1px 1px black;
+}
+
+.button.negative:hover,
+.button.positive:hover {
+  color: var(--hover);
+}

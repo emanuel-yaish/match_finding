@@ -1,11 +1,11 @@
 import React from "react";
 import "./Counter.css";
 
-function Counter(props) {
+function Counter({ counter, icon, type }) {
   return (
-    <div className="counter">
-      <i className="counter-value fas fa-user-plus"></i>
-      <span className="counter-value">0</span>
+    <div className={`counter ${type}`}>
+      <i className={`counter-icon fas ${icon}`}></i>
+      <span className="counter-value">{counter}</span>
     </div>
   );
 }

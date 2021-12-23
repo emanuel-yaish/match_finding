@@ -1,0 +1,16 @@
+.counter {
+  font-size: 3rem;
+}
+
+.counter.positive {
+  color: var(--positive);
+  text-shadow: 1px 1px black;
+}
+.counter.negative {
+  color: var(--negative);
+  text-shadow: 1px 1px black;
+}
+
+.counter-value {
+  margin-left: 1rem;
+}

@@ -1,7 +1,17 @@
 .movie {
   text-align: center;
+  font-size: 2rem;
+  min-height: 30rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .movie-image {
   width: 100%;
+}
+
+.movie-caption {
+  font-weight: 600;
+  text-shadow: 1px 1px black;
 }
